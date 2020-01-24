@@ -13,7 +13,7 @@ if (typeof exports !== 'undefined') {
 }
 var expect = chai.expect
 
-describe('Instance of Airplane', () => {
+xdescribe('Instance of Airplane', () => {
   it('[1] initializes with the given name', () => {
     const a = new results.Airplane('Gulfstream 550')
     expect(a.name).to.eq(`Gulfstream 550`)
@@ -265,7 +265,7 @@ describe('Instances of Student', () => {
   })
 })
 
-describe('Instance of ProjectManager', () => {
+xdescribe('Instance of ProjectManager', () => {
   let pm
   beforeEach(() => {
     pm = new results.ProjectManager(projectManagerAttr)
